@@ -1,16 +1,16 @@
-import wikipedia   #amey
-import pyjokes     #amey 
-import pywhatkit as kit   #amey
-import pyautogui   #mehraj
-import os         #mehraj
-import pyttsx3    #sam
-import webbrowser  #sam
-import sys     #sam
-import datetime    #roshani
-import smtplib    #roshani
-import requests   #dhanu
-import speech_recognition as sr #dhanu
-from pywikihow import search_wikihow   #dhanu
+import wikipedia   
+import pyjokes     
+import pywhatkit as kit 
+import pyautogui  
+import os         
+import pyttsx3    
+import webbrowser 
+import sys     
+import datetime    
+import smtplib    
+import requests   
+import speech_recognition as sr 
+from pywikihow import search_wikihow  
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
